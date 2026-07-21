@@ -1,63 +1,25 @@
 {
   "ok": true,
   "output": "package/spritesheet.webp",
-  "sha256": "2fb09fbc26e356e714514781d13a524dedb2b5b0bd36061aa3773b9d0fc77b0a",
-  "atlas_size": [
-    1536,
-    2288
-  ],
+  "sha256": "e31800e762eae588e847210371114eedc4505c04f828bc58b98bb6cb14858f9a",
+  "atlas_size": [1536, 2288],
+  "source_cells": {
+    "front": [8, 5],
+    "up": [9, 2]
+  },
+  "idle_sequence": ["front", "up", "up", "up", "front", "front"],
   "idle_bboxes": [
-    [
-      30,
-      5,
-      162,
-      203
-    ],
-    [
-      30,
-      5,
-      162,
-      203
-    ],
-    [
-      30,
-      5,
-      162,
-      203
-    ],
-    [
-      30,
-      5,
-      162,
-      203
-    ],
-    [
-      30,
-      5,
-      162,
-      203
-    ],
-    [
-      30,
-      5,
-      162,
-      203
-    ],
-    [
-      30,
-      5,
-      162,
-      203
-    ],
+    [30, 5, 162, 203],
+    [34, 5, 158, 203],
+    [34, 5, 158, 203],
+    [34, 5, 158, 203],
+    [30, 5, 162, 203],
+    [30, 5, 162, 203],
+    [30, 5, 162, 203],
     null
   ],
+  "pose_transform": "full-frame horizontal mirror; exact-size source >_ glyph pixels restored; up pose normalized to front height, baseline, and center",
   "rows_1_to_10_pixel_identical": true,
   "neutral_pixel_identical_to_idle_0": true,
-  "blink_diff_bbox": [
-    50,
-    58,
-    135,
-    90
-  ],
   "alpha_zero_rgb_residue": 0
 }

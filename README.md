@@ -15,6 +15,9 @@ wears a crimson robe and laurel-trimmed cap, carries a Codex book marked `>_`,
 and reacts to working, waiting, reviewing, running, failure, and look-direction
 states.
 
+The idle loop uses a calm front pose and a longer upward-looking pose at one
+shared height, center, and foot baseline, with the book mark kept as `>_`.
+
 The package uses the Codex v2 pet atlas contract:
 
 - RGBA WebP

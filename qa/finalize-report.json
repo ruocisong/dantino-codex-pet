@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "output": "package/spritesheet.webp",
+  "sha256": "2fb09fbc26e356e714514781d13a524dedb2b5b0bd36061aa3773b9d0fc77b0a",
+  "atlas_size": [
+    1536,
+    2288
+  ],
+  "idle_bboxes": [
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    [
+      30,
+      5,
+      162,
+      203
+    ],
+    null
+  ],
+  "rows_1_to_10_pixel_identical": true,
+  "neutral_pixel_identical_to_idle_0": true,
+  "blink_diff_bbox": [
+    50,
+    58,
+    135,
+    90
+  ],
+  "alpha_zero_rgb_residue": 0
+}

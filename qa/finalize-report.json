@@ -1,28 +1,41 @@
 {
   "ok": true,
-  "output": "package/spritesheet.webp",
-  "sha256": "707f58bb836c782303530822b0e03f4448b64cb472d88dd35ef6d9e8b0290c1e",
-  "atlas_size": [1536, 2288],
-  "repair_scope": ["idle-front"],
-  "idle_sequence": ["front", "up", "up", "up", "front", "front"],
-  "idle_bboxes": [
-    [28, 5, 164, 203],
-    [34, 5, 158, 203],
-    [34, 5, 158, 203],
-    [34, 5, 158, 203],
-    [28, 5, 164, 203],
-    [28, 5, 164, 203],
-    [28, 5, 164, 203],
-    null
+  "source_front": "historic body-locked idle frame 0",
+  "source_up": "historic body-locked idle frame 1",
+  "source_blink": "historic body-locked idle frame 5",
+  "target_face_width_px": 69,
+  "face_width_reference": "current waving/waiting standing heads; cap tail excluded",
+  "source_face_widths_px": {
+    "front": 63,
+    "up": 69,
+    "blink": 64
+  },
+  "applied_head_x_scales": {
+    "front": 1.095238,
+    "up": 1.0,
+    "blink_source": 1.078125
+  },
+  "normalized_face_width_targets_px": [
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69
   ],
-  "pose_transform": "failed row frame 0 reused at native cell geometry, horizontally mirrored for a screen-right hat tail, then the book glyph restored to >_ at the original size",
-  "idle_front_repairs": ["narrower approved face", "single screen-right hat tail", "restored >_ glyph"],
-  "source_cell": {"state": "failed", "row": 5, "column": 0},
+  "body_x_scale": 1.19,
+  "body_locked_from_y_px": 118,
+  "lower_body_pixel_identical_across_idle": true,
   "rows_1_to_10_pixel_identical": true,
-  "idle_up_cells_1_to_3_pixel_identical": true,
-  "neutral_pixel_identical_to_idle_0": true,
-  "alpha_zero_rgb_residue": 0,
-  "v2_validation": true,
-  "blind_direction_validation": true,
-  "final_visual_qa": "pass"
+  "neutral_pixel_identical_to_front": true,
+  "blink_changes_only_eye_regions": true,
+  "red_palette_target": "current untouched rows 1-8 percentile profile",
+  "hat_composition": "one head layer per frame; fixed body excludes side hair and cap tail at seam",
+  "output_sha256": "3a6aefd743187208979475722227d6b64ee25bc781bbe26d0f2860dffcab2e12",
+  "idle_red_median_rgb": [187, 37, 35],
+  "untouched_rows_red_median_rgb": [184, 36, 34],
+  "idle_sequence": ["front", "up", "up", "up", "up", "blink", "neutral-front"],
+  "final_visual_qa": "pass",
+  "final_visual_qa_note": "The revised idle matches waving/waiting face proportions without appearing over-wide, preserves the approved front/up identities and fixed body/book/hands/feet, shows one clean hat tail and lappet pair with matching robe color, and limits the blink change strictly to the two eye regions while rows 1-10 remain unchanged."
 }

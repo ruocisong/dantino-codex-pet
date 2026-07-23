@@ -2,7 +2,7 @@
   "ok": true,
   "source_front": "historic body-locked idle frame 0",
   "source_up": "historic body-locked idle frame 1",
-  "source_blink": "historic body-locked idle frame 5",
+  "source_blink": "none; eyes erased and closed eyelids redrawn on the final open frame",
   "target_face_width_px": 69,
   "face_width_reference": "current waving/waiting standing heads; cap tail excluded",
   "source_face_widths_px": {
@@ -30,12 +30,14 @@
   "rows_1_to_10_pixel_identical": true,
   "neutral_pixel_identical_to_front": true,
   "blink_changes_only_eye_regions": true,
+  "eyebrows_pixel_identical_open_vs_blink": true,
+  "mouth_pixel_identical_open_vs_blink": true,
+  "idle_cells_0_to_4_and_6_to_7_pixel_identical_to_current": true,
+  "only_idle_frame_5_updated": true,
+  "blink_construction": "same final open frame; only the two eye apertures are locally erased and two closed eyelid lines are redrawn",
   "red_palette_target": "current untouched rows 1-8 percentile profile",
   "hat_composition": "one head layer per frame; fixed body excludes side hair and cap tail at seam",
-  "output_sha256": "3a6aefd743187208979475722227d6b64ee25bc781bbe26d0f2860dffcab2e12",
-  "idle_red_median_rgb": [187, 37, 35],
-  "untouched_rows_red_median_rgb": [184, 36, 34],
-  "idle_sequence": ["front", "up", "up", "up", "up", "blink", "neutral-front"],
+  "output_sha256": "8e2777aa2c8863e81f3e8c33fc1f386facd55432ca8268b21ed5a747c264882b",
   "final_visual_qa": "pass",
-  "final_visual_qa_note": "The revised idle matches waving/waiting face proportions without appearing over-wide, preserves the approved front/up identities and fixed body/book/hands/feet, shows one clean hat tail and lappet pair with matching robe color, and limits the blink change strictly to the two eye regions while rows 1-10 remain unchanged."
+  "final_visual_qa_note": "The blink reads as the same front-facing Dantino briefly closing her eyes, with no residual open-eye fragments or visible skin seam; eyebrows, mouth, silhouette, hat, hair, book, robe, scale, alignment, and palette remain consistent."
 }

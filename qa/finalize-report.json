@@ -2,7 +2,9 @@
   "ok": true,
   "source_front": "historic body-locked idle frame 0",
   "source_up": "historic body-locked idle frame 1",
-  "source_blink": "none; eyes erased and closed eyelids redrawn on the final open frame",
+  "source_blink": "user-approved full closed-eye reference",
+  "approved_blink_reference": "/Users/Ruoci/Documents/Codex/2026-07-15/new-chat/outputs/dantino-idle-headlocked-wide-rebuild/references/approved-blink.png",
+  "approved_blink_reference_sha256": "f3c21b66b1f4825a8f750e9ef12260af950ad9cc5578f3b64de78c5e8bf001b6",
   "target_face_width_px": 69,
   "face_width_reference": "current waving/waiting standing heads; cap tail excluded",
   "source_face_widths_px": {
@@ -26,18 +28,15 @@
   ],
   "body_x_scale": 1.19,
   "body_locked_from_y_px": 118,
-  "lower_body_pixel_identical_across_idle": true,
+  "lower_body_pixel_identical_across_idle": false,
   "rows_1_to_10_pixel_identical": true,
   "neutral_pixel_identical_to_front": true,
-  "blink_changes_only_eye_regions": true,
-  "eyebrows_pixel_identical_open_vs_blink": true,
-  "mouth_pixel_identical_open_vs_blink": true,
   "idle_cells_0_to_4_and_6_to_7_pixel_identical_to_current": true,
   "only_idle_frame_5_updated": true,
-  "blink_construction": "same final open frame; only the two eye apertures are locally erased and two closed eyelid lines are redrawn",
+  "blink_construction": "approved full closed-eye reference; checkerboard removed and subject registered to the current idle bbox",
   "red_palette_target": "current untouched rows 1-8 percentile profile",
   "hat_composition": "one head layer per frame; fixed body excludes side hair and cap tail at seam",
-  "output_sha256": "8e2777aa2c8863e81f3e8c33fc1f386facd55432ca8268b21ed5a747c264882b",
+  "output_sha256": "69f0c6e5a4bbc50504f8c5fcccc82f931f83aa3554121328de524626f275ac30",
   "final_visual_qa": "pass",
-  "final_visual_qa_note": "The blink reads as the same front-facing Dantino briefly closing her eyes, with no residual open-eye fragments or visible skin seam; eyebrows, mouth, silhouette, hat, hair, book, robe, scale, alignment, and palette remain consistent."
+  "final_visual_qa_note": "The user-approved full blink was used directly after checkerboard removal and bbox registration. At normal pet size there is no checkerboard or white halo, no clipping, no conspicuous loop pop, the baseline matches, and the book mark remains >_."
 }

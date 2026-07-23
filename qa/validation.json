@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "/Users/Ruoci/Documents/Codex/2026-07-15/new-chat/outputs/dantino-idle-headlocked-wide-rebuild/final/spritesheet-extended.webp",
+  "file": "/Users/Ruoci/Documents/Codex/2026-07-15/new-chat/dantino-codex-pet/package/spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -17,7 +17,7 @@
       "row": 0,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 18158,
+      "nontransparent_pixels": 16289,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -26,7 +26,7 @@
       "row": 0,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 17772,
+      "nontransparent_pixels": 16838,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -35,7 +35,7 @@
       "row": 0,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 17772,
+      "nontransparent_pixels": 16838,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -44,7 +44,7 @@
       "row": 0,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 17772,
+      "nontransparent_pixels": 16838,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -53,7 +53,7 @@
       "row": 0,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 17772,
+      "nontransparent_pixels": 16838,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -62,7 +62,7 @@
       "row": 0,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 18158,
+      "nontransparent_pixels": 16289,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -71,7 +71,7 @@
       "row": 0,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 18158,
+      "nontransparent_pixels": 16289,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },

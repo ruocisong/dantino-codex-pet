@@ -1,42 +1,40 @@
 {
   "ok": true,
-  "source_front": "historic body-locked idle frame 0",
-  "source_up": "historic body-locked idle frame 1",
-  "source_blink": "user-approved full closed-eye reference",
-  "approved_blink_reference": "/Users/Ruoci/Documents/Codex/2026-07-15/new-chat/outputs/dantino-idle-headlocked-wide-rebuild/references/approved-blink.png",
-  "approved_blink_reference_sha256": "f3c21b66b1f4825a8f750e9ef12260af950ad9cc5578f3b64de78c5e8bf001b6",
-  "target_face_width_px": 69,
-  "face_width_reference": "current waving/waiting standing heads; cap tail excluded",
-  "source_face_widths_px": {
-    "front": 63,
-    "up": 69,
-    "blink": 64
-  },
-  "applied_head_x_scales": {
-    "front": 1.095238,
-    "up": 1.0,
-    "blink_source": 1.078125
-  },
-  "normalized_face_width_targets_px": [
-    69,
-    69,
-    69,
-    69,
-    69,
-    69,
-    69
+  "decision": "blink removed at user request",
+  "construction": "idle rebuilt from two complete user-approved transparent sprites; no head/body split, splice mask, rescale, palette remap, or generated replacement",
+  "idle_sequence": [
+    "front",
+    "up",
+    "up",
+    "up",
+    "up",
+    "front",
+    "front-neutral"
   ],
-  "body_x_scale": 1.19,
-  "body_locked_from_y_px": 118,
-  "lower_body_pixel_identical_across_idle": false,
+  "blink_enabled": false,
+  "front_source_sha256": "698d60ba6631c5ba0f4780002746682da928a0cefbf567a9a5612dfcf3fe5ab3",
+  "up_source_sha256": "60c1c0aadcd6646ee4280cf2912a14336fd78a6c9c6a34e0852799f0dfe67e88",
+  "front_bbox": [
+    40,
+    5,
+    151,
+    203
+  ],
+  "up_bbox": [
+    50,
+    5,
+    166,
+    203
+  ],
+  "shoulder_band_nontransparent_pixels": {
+    "front": 2767,
+    "up": 2779
+  },
+  "shoulders_present": true,
+  "source_cells_pixel_exact_after_webp": true,
+  "row_0_unused_cell_transparent": true,
   "rows_1_to_10_pixel_identical": true,
-  "neutral_pixel_identical_to_front": true,
-  "idle_cells_0_to_4_and_6_to_7_pixel_identical_to_current": true,
-  "only_idle_frame_5_updated": true,
-  "blink_construction": "approved full closed-eye reference; checkerboard removed and subject registered to the current idle bbox",
-  "red_palette_target": "current untouched rows 1-8 percentile profile",
-  "hat_composition": "one head layer per frame; fixed body excludes side hair and cap tail at seam",
-  "output_sha256": "69f0c6e5a4bbc50504f8c5fcccc82f931f83aa3554121328de524626f275ac30",
+  "atlas_sha256": "5bda4c3448c27ef66b0dfa91ac9a816fd90232342452c18ab54ce40c15180d6b",
   "final_visual_qa": "pass",
-  "final_visual_qa_note": "The user-approved full blink was used directly after checkerboard removal and bbox registration. At normal pet size there is no checkerboard or white halo, no clipping, no conspicuous loop pop, the baseline matches, and the book mark remains >_."
+  "final_visual_qa_note": "Idle contains only the approved open-front and upward-looking sprites. No blink, eye patch, missing shoulder, duplicated hat tail, clipping, or nontransparent background is present; all other rows remain unchanged."
 }

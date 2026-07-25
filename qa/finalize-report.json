@@ -1,18 +1,13 @@
 {
   "ok": true,
-  "decision": "install and publish the user-approved current Dantino atlas",
-  "construction": "activity rows preserve the approved unified-color and scale-adjusted atlas; look-direction rows 9 and 10 were rebuilt from the current idle body with head and gaze changes",
-  "idle_sequence": [
-    "front",
-    "up",
-    "up",
-    "up",
-    "up",
-    "front",
-    "front-neutral"
-  ],
-  "blink_enabled": false,
-  "protected_activity_rows_changed_pixels": 0,
+  "decision": "install and publish the user-selected Dantino atlas",
+  "construction": "rows 0-6 and row 8 preserve the previously published atlas; row 7 uses the selected six-frame seated reading sequence; rows 9-10 use the user-approved enlarged old-look direction sequence",
+  "working_row_source": "working-row-natural-curved-eyebrow-tails.png",
+  "working_row_frames": 6,
+  "working_row_unused_cells_transparent": true,
+  "working_row_shared_scale": 0.5299145299145299,
+  "working_row_target_height": 186,
+  "working_row_target_baseline": 203,
   "look_rows_replaced": [
     9,
     10
@@ -28,7 +23,7 @@
   "transparent_rgb_residue_pixels": 0,
   "png_to_lossless_webp_pixel_exact": true,
   "installed_copy_pixel_exact": true,
-  "atlas_sha256": "2ff8635df471f7022688f88d20fc16db10faf10a55ed50b341a20e147195c0f0",
+  "atlas_sha256": "fab6a9e2fc242b02ffe23e92d413141dde8089847f9261d68439dfdb10f2f7e6",
   "final_visual_qa": "user-approved",
-  "final_visual_qa_note": "The published package matches the exact raw candidate approved by the user. The rejected cleanup variant that damaged facial and book details was not used."
+  "final_visual_qa_note": "The package matches the exact working-row version and old-look direction rows selected by the user. Deterministic v2 validation passes; continuity warnings are retained for review evidence."
 }

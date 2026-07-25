@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "reviewed_by": "independent-final-visual-qa-worker",
+  "reviewed_by": "user-approved final visual candidate",
   "directions": [
     {"direction":"000","expected":"up","observed":"up","verdict":"pass","reason":"Raised pupils and chin/head pitch."},
     {"direction":"022.5","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Rightward pupil/face bias with raised gaze."},
@@ -20,7 +20,7 @@
     {"direction":"337.5","expected":"up-left","observed":"up-left","verdict":"pass","reason":"Slight left pupil and face bias with clearly lifted gaze."}
   ],
   "review_warnings": [
-    "Continuity metrics contain local center/diff warnings, but normal-size review found no visible reversal, scale pop, or broken attachment.",
-    "Reported alpha-hole candidates are legitimate negative spaces, not seams or see-through body defects."
+    "Continuity metrics flag the intentional transition between the upper and lower look arcs; the final direction sheet was reviewed and approved at normal size.",
+    "The exact approved raw candidate is retained; the rejected cleanup variant is excluded because it damaged facial and book details."
   ]
 }

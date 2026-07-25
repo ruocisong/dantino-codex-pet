@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "decision": "blink removed at user request",
-  "construction": "idle rebuilt from two complete user-approved transparent sprites; no head/body split, splice mask, rescale, palette remap, or generated replacement",
+  "decision": "install and publish the user-approved current Dantino atlas",
+  "construction": "activity rows preserve the approved unified-color and scale-adjusted atlas; look-direction rows 9 and 10 were rebuilt from the current idle body with head and gaze changes",
   "idle_sequence": [
     "front",
     "up",
@@ -12,29 +12,23 @@
     "front-neutral"
   ],
   "blink_enabled": false,
-  "front_source_sha256": "698d60ba6631c5ba0f4780002746682da928a0cefbf567a9a5612dfcf3fe5ab3",
-  "up_source_sha256": "60c1c0aadcd6646ee4280cf2912a14336fd78a6c9c6a34e0852799f0dfe67e88",
-  "front_bbox": [
-    40,
-    5,
-    151,
-    203
+  "protected_activity_rows_changed_pixels": 0,
+  "look_rows_replaced": [
+    9,
+    10
   ],
-  "up_bbox": [
-    50,
-    5,
-    166,
-    203
+  "atlas_dimensions": [
+    1536,
+    2288
   ],
-  "shoulder_band_nontransparent_pixels": {
-    "front": 2767,
-    "up": 2779
-  },
-  "shoulders_present": true,
-  "source_cells_pixel_exact_after_webp": true,
-  "row_0_unused_cell_transparent": true,
-  "rows_1_to_10_pixel_identical": true,
-  "atlas_sha256": "5bda4c3448c27ef66b0dfa91ac9a816fd90232342452c18ab54ce40c15180d6b",
-  "final_visual_qa": "pass",
-  "final_visual_qa_note": "Idle contains only the approved open-front and upward-looking sprites. No blink, eye patch, missing shoulder, duplicated hat tail, clipping, or nontransparent background is present; all other rows remain unchanged."
+  "cell_dimensions": [
+    192,
+    208
+  ],
+  "transparent_rgb_residue_pixels": 0,
+  "png_to_lossless_webp_pixel_exact": true,
+  "installed_copy_pixel_exact": true,
+  "atlas_sha256": "2ff8635df471f7022688f88d20fc16db10faf10a55ed50b341a20e147195c0f0",
+  "final_visual_qa": "user-approved",
+  "final_visual_qa_note": "The published package matches the exact raw candidate approved by the user. The rejected cleanup variant that damaged facial and book details was not used."
 }

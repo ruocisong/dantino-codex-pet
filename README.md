@@ -87,6 +87,22 @@ python3 -m pip install Pillow
 python3 scripts/validate.py
 ```
 
+### Chroma-key note
+
+Dantino's extraction key is magenta `#FF00FF`, not green. The laurel wreath
+contains intentional green edge pixels, so running a validator with its default
+green key (`#00FF00`) can report false-positive chroma fringe in the leaves.
+Do not erase or recolor those pixels. Always pass `--chroma-key '#FF00FF'` when
+using the hatch-pet atlas validator:
+
+```bash
+python3 ~/.codex/skills/hatch-pet/scripts/validate_atlas.py \
+  package/spritesheet.webp \
+  --json-out qa/validation.json \
+  --chroma-key '#FF00FF' \
+  --require-v2
+```
+
 ## 中文
 
 Dantino（小但丁）是一只非官方 Codex 桌宠：二头身、深红长袍、月桂帽，
@@ -108,6 +124,13 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
 ```
 
 若安装后没有立即出现在 Codex 宠物列表中，请刷新或重启 Codex。
+
+### 抠图键色说明
+
+Dantino 的真实抠图键色是洋红 `#FF00FF`，不是绿色。月桂叶边缘本来就有
+绿色像素；若验证器使用默认绿色键色 `#00FF00`，会把这些正常叶缘误报为
+色键残留。请勿据此擦除或改色月桂叶；运行 hatch-pet atlas 验证器时必须
+显式传入 `--chroma-key '#FF00FF'`。
 
 ## Attribution and status
 

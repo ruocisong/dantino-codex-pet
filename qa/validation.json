@@ -10,10 +10,7 @@
   "height": 2288,
   "transparent_rgb_residue_pixels": 0,
   "errors": [],
-  "warnings": [
-    "running row 7 column 1 has 3 visible edge pixels contaminated by chroma key #00FF00",
-    "running row 7 column 4 has 1 visible edge pixels contaminated by chroma key #00FF00"
-  ],
+  "warnings": [],
   "cells": [
     {
       "state": "idle",
@@ -535,7 +532,7 @@
       "used": true,
       "nontransparent_pixels": 20014,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 3
+      "chroma_fringe_pixels": 0
     },
     {
       "state": "running",
@@ -562,7 +559,7 @@
       "used": true,
       "nontransparent_pixels": 20080,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 1
+      "chroma_fringe_pixels": 0
     },
     {
       "state": "running",

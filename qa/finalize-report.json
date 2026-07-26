@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "decision": "install and publish the user-selected Dantino atlas",
+  "decision": "install and publish the user-selected Dantino atlas with the real magenta chroma key",
   "construction": "rows 0-6 and row 8 preserve the previously published atlas; row 7 uses the selected six-frame seated reading sequence; rows 9-10 use the user-approved enlarged old-look direction sequence",
   "working_row_source": "working-row-natural-curved-eyebrow-tails.png",
   "working_row_frames": 6,
@@ -23,7 +23,14 @@
   "transparent_rgb_residue_pixels": 0,
   "png_to_lossless_webp_pixel_exact": true,
   "installed_copy_pixel_exact": true,
-  "atlas_sha256": "fab6a9e2fc242b02ffe23e92d413141dde8089847f9261d68439dfdb10f2f7e6",
+  "chroma_key": "#FF00FF",
+  "default_green_false_positive_pixels": 4,
+  "default_green_false_positive_note": "The four #00FF00 warnings are valid laurel-leaf pixels in running frames, not chroma residue.",
+  "magenta_edge_cleanup": "edge-local-chroma-spill-suppression",
+  "magenta_edge_cleanup_alpha_preserved": true,
+  "magenta_validation_errors": 0,
+  "magenta_validation_warnings": 0,
+  "atlas_sha256": "461b374e12a945fcb6150ebd20fd8d0b17f969ff40f0ced7b105aee7fc6e8f03",
   "final_visual_qa": "user-approved",
-  "final_visual_qa_note": "The package matches the exact working-row version and old-look direction rows selected by the user. Deterministic v2 validation passes; continuity warnings are retained for review evidence."
+  "final_visual_qa_note": "The package preserves the user-selected poses, alpha mask, scale, and baseline. The real #FF00FF edge residue is removed, intentional green laurel pixels remain intact, and deterministic v2 validation passes without chroma warnings."
 }

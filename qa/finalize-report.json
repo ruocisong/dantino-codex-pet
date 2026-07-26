@@ -1,11 +1,16 @@
 {
   "ok": true,
-  "decision": "install and publish the user-selected Dantino atlas with the real magenta chroma key",
+  "decision": "install the user-selected Dantino atlas with the new six-frame seated reading row",
   "construction": "rows 0-6 and row 8 preserve the previously published atlas; row 7 uses the selected six-frame seated reading sequence; rows 9-10 use the user-approved enlarged old-look direction sequence",
-  "working_row_source": "working-row-natural-curved-eyebrow-tails.png",
+  "working_row_source": "working-row-candidate-mark-moved-up-10px.png",
+  "working_row_source_sha256": "1869b67153997cde4826752951b06059488ce5a4c15bb4c760254c9280445654",
   "working_row_frames": 6,
   "working_row_unused_cells_transparent": true,
-  "working_row_shared_scale": 0.5299145299145299,
+  "working_row_scale_range": [
+    0.5486725663716814,
+    0.5502958579881657
+  ],
+  "working_row_resize": "Lanczos with premultiplied alpha / RGBa",
   "working_row_target_height": 186,
   "working_row_target_baseline": 203,
   "look_rows_replaced": [
@@ -24,13 +29,28 @@
   "png_to_lossless_webp_pixel_exact": true,
   "installed_copy_pixel_exact": true,
   "chroma_key": "#FF00FF",
-  "default_green_false_positive_pixels": 4,
-  "default_green_false_positive_note": "The four #00FF00 warnings are valid laurel-leaf pixels in running frames, not chroma residue.",
+  "default_green_validator_not_authoritative": true,
+  "default_green_validator_note": "Dantino uses #FF00FF as its real key color. Green belongs to the laurel and must not be used for extraction or repair decisions.",
   "magenta_edge_cleanup": "edge-local-chroma-spill-suppression",
   "magenta_edge_cleanup_alpha_preserved": true,
   "magenta_validation_errors": 0,
   "magenta_validation_warnings": 0,
-  "atlas_sha256": "461b374e12a945fcb6150ebd20fd8d0b17f969ff40f0ced7b105aee7fc6e8f03",
+  "changed_rows": [
+    7
+  ],
+  "unchanged_rows_pixel_exact": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "atlas_sha256": "d36d04ac153e86fd9d68bda0ee87aa07e57e3ee6f69053ba7132df07f31b1c8e",
   "final_visual_qa": "user-approved",
-  "final_visual_qa_note": "The package preserves the user-selected poses, alpha mask, scale, and baseline. The real #FF00FF edge residue is removed, intentional green laurel pixels remain intact, and deterministic v2 validation passes without chroma warnings."
+  "final_visual_qa_note": "The user approved the source row. Final-size review preserves all six poses, the raised >_ mark, longer curved eyebrows, green laurel detail, common baseline, and consistent scale. Deterministic #FF00FF v2 validation passes without errors or warnings."
 }

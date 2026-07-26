@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "decision": "install the user-approved six-frame seated reading row",
+  "source": "working-row-candidate-mark-moved-up-10px.png",
+  "source_sha256": "1869b67153997cde4826752951b06059488ce5a4c15bb4c760254c9280445654",
+  "target_atlas_row": 7,
+  "frame_count": 6,
+  "unused_cells_transparent": [
+    6,
+    7
+  ],
+  "chroma_key": "#FF00FF",
+  "chroma_note": "Magenta is the real Dantino extraction key. Green laurel pixels were preserved and never treated as key color.",
+  "resize_algorithm": "Lanczos",
+  "resize_alpha_mode": "premultiplied alpha / RGBa",
+  "target_height": 186,
+  "target_baseline": 203,
+  "transparent_rgb_residue_pixels": 0,
+  "atlas_validation_errors": 0,
+  "atlas_validation_warnings": 0,
+  "changed_rows": [
+    7
+  ],
+  "unchanged_rows_pixel_exact": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "atlas_sha256": "d36d04ac153e86fd9d68bda0ee87aa07e57e3ee6f69053ba7132df07f31b1c8e"
+}
